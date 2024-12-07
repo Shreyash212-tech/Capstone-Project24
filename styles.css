@@ -16,7 +16,7 @@ header {
   padding-top: 16px;
   padding-bottom: 16px;
   background: #fff;
-  border-bottom: 1px;
+  border-bottom: 1px solid;
 }
   
 header .logo {
@@ -43,16 +43,21 @@ header nav a {
 }
 
 .hero h1 {
-  font-size: 36px;
+  font-size: 120px;
+  font-weight:400%;
+  line-height: 120px;
+  text-align: center
+  padding-top: ;
 }
 
 .hero-image {
-  width: 80%;
-  height: 200px;
-  margin: 20px auto;
-  background: url('grid-pattern.png') no-repeat center center;
-  background-size: cover;
-  border-radius: 10px;
+  width: 30px;
+  
+}
+.background-img{
+  width: 30pc;
+  margin-right:30px;
+
 }
 
 .projects {
