@@ -46,7 +46,9 @@ header nav a {
   font-size: 120px;
   font-weight:400%;
   line-height: 120px;
-  text-align: center
+  text-align: center;
+  font-style: DotGothic16;
+  
   padding-top: ;
 }
 
@@ -68,7 +70,7 @@ header nav a {
 }
 
 .project {
-  text-align: center;
+  padding: ;
 }
 
 .project img {
