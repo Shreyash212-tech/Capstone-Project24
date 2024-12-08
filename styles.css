@@ -21,13 +21,16 @@ header {
   
 header .logo {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 400;
+  font-family:"DotGothic16", sans-serif ;
 }
 
 header nav a {
   margin: 0 15px;
   text-decoration: none;
   color: #000;
+  font-family:"DotGothic16", sans-serif ;
+  font-weight: 400;
 }
 
 .container{
@@ -36,43 +39,59 @@ header nav a {
 }
 .hero {
   text-align: center;
-  padding: 50px;
   background: #fff;
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  border-bottom: 1px;
+  gap: 48px;
+
+
 }
 
 .hero h1 {
   font-size: 120px;
-  font-weight:400%;
+  font-weight:400;
   line-height: 120px;
   text-align: center;
-  font-style: DotGothic16;
+  font-family: "DotGothic16", sans-serif;
   
   padding-top: ;
 }
 
-.hero-image {
-  width: 30px;
-  
-}
 .background-img{
-  width: 30pc;
-  margin-right:30px;
+  border-radius: 56px;
+  border: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 
 }
 
 .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  padding: 20px;
+  gap: 48px;
+  padding-bottom: 48px;
+  padding-top: 48px;
 }
 
 .project {
-  padding: ;
+  gap: 8px;
+
 }
 
+.projects .project .subheading {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.projects .project .miniheading {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+}
 .project img {
   width: 100%;
   height: auto;
