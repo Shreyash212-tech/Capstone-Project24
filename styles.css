@@ -99,29 +99,69 @@ header nav a {
 }
 
 .contact {
-  text-align: center;
-  padding: 50px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  border-bottom: 1px;
   background: #fff;
-  display: block;
+  gap:48px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact h2{
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  font-family:"DotGothic16", sans-serif ;
+}
+.contact p {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
 }
 
-.contact form {
+.social{
+  padding-top: 96px;
+  padding-bottom: 96px;
+  border-bottom: 1px;
+  gap: 48px;
+}
+
+form{
+  text-align: center;
+}
+
+form h2{
   margin-top: 20px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 40px;
+  font-family: "DotGothic16", sans-serif;
 }
 
-.contact input {
-  padding: 10px;
+input {
+  text-align:;
+  padding: 12px 24px 12px 24px;
   margin-right: 10px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 8px;
+  gap: 8px;
+  
 }
 
-.contact button {
-  padding: 10px 20px;
+button {
+  padding: 12px 24px 12px 24px;
   border: none;
   background: #007bff;
   color: #fff;
-  border-radius: 5px;
+  border-radius: 8px;
+  
+}
+.social-media img{
+  text-align: center;
+  margin-top: 20px;
+  
+  gap: ;
 }
   
 footer {
@@ -133,6 +173,16 @@ footer {
   padding-bottom: 24px;
   display: flex;
   flex-direction: row;
-  
-
+  justify-content: space-between;  
+}
+footer p{
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  font-family:"DotGothic16", sans-serif;
+}
+footer form{
+  border-radius: 8px;
+  border: 1px;
+  padding: 12px 24px 12px 24px;
 }
