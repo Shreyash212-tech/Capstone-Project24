@@ -70,7 +70,8 @@ header nav a {
 
 .projects {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 48px;
   padding-bottom: 48px;
   padding-top: 48px;
@@ -95,7 +96,7 @@ header nav a {
 .projects .project .miniheading {
   font-weight: 400;
   font-size: 17px;
-  margin-top: 1px;
+  line-height: 24px;
   
   
   
