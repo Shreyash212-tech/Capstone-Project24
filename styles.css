@@ -5,7 +5,6 @@ body {
   padding-right: 4vw;
   line-height: 1.6;
   height: 100vh;
-  weight: 100vw;
   background-color: #FFFFFF;
 }
   
@@ -147,7 +146,6 @@ form h2{
 }
 
 input {
-  text-align:;
   padding: 1.5vh 3vw 1.5vh 3vw;
   margin-right: 1vw;
   margin-top: 2vh;
@@ -208,6 +206,84 @@ header nav a:hover{
   background-color:azure;
 }
 
-footer form:hover{
-  background-color:;
+@media (max-width: 768px) {
+  body {
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+  
+  header .logo {
+    font-size: 4vw;
+  }
+  
+  header nav a {
+    font-size: 3vw;
+    margin: 0 0.5vw;
+  }
+  
+  .hero h1 {
+    font-size: 10vw;
+  }
+  
+  .background-img {
+    margin-top: 5vh;
+    border-radius: 5vw;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+    gap: 4vw;
+    width: 50%;
+    padding-left: 25%;
+    
+  }
+  
+  .projects .project .subheading {
+    font-size: 3vw;
+  }
+  
+  .projects .project .miniheading {
+    font-size: 2.5vw;
+  }
+  
+  .contact h2 {
+    font-size: 3vw;
+  }
+  
+  .contact p {
+    font-size: 2vw;
+    margin-right: 5vw;
+  }
+  
+  form h2 {
+    font-size: 4vw;
+  }
+  
+  input, button {
+    width: 80%;
+  }
+  
+  footer p {
+    font-size: 3.5vw;
+  }
+
+  .social {
+    width: 60%;
+    padding-left:19%;
+  }
+  footer form button {
+    margin-right: 50px;
+    
+  }
+  
+  nav{
+    display: none;
+  }
+  .logo{
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
+
+
+ 
